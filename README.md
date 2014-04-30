@@ -22,15 +22,15 @@ pod 'PBJHexagon'
 ```
 
 ```objective-c
-    PBJHexagonFlowLayout *flowLayout = [[PBJHexagonFlowLayout alloc] init];
-    flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    flowLayout.sectionInset = UIEdgeInsetsZero;
-    flowLayout.headerReferenceSize = CGSizeZero;
-    flowLayout.footerReferenceSize = CGSizeZero;
-    flowLayout.itemSize = CGSizeMake(80.0f, 92.0f);
-    flowLayout.itemsPerRow = 4;
-    
-    _hexagonGridViewController = [[UICollectionViewController alloc] initWithCollectionViewLayout:flowLayout];
+PBJHexagonFlowLayout *flowLayout = [[PBJHexagonFlowLayout alloc] init];
+flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
+flowLayout.sectionInset = UIEdgeInsetsZero;
+flowLayout.headerReferenceSize = CGSizeZero;
+flowLayout.footerReferenceSize = CGSizeZero;
+flowLayout.itemSize = CGSizeMake(80.0f, 92.0f);
+flowLayout.itemsPerRow = 4;
+
+_hexagonGridViewController = [[UICollectionViewController alloc] initWithCollectionViewLayout:flowLayout];
 ```
 
 ## Resources
