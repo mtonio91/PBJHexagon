@@ -22,7 +22,7 @@ pod 'PBJHexagon'
 ```
 
 ```objective-c
-PBJHexagonFlowLayout *flowLayout = [[PBJHexagonFlowLayout alloc] init];
+    PBJHexagonFlowLayout *flowLayout = [[PBJHexagonFlowLayout alloc] init];
     flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
     flowLayout.sectionInset = UIEdgeInsetsZero;
     flowLayout.headerReferenceSize = CGSizeZero;
