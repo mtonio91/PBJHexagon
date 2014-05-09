@@ -1,4 +1,4 @@
-Note: I need to add a few more files before submitting to CocoaPods, the basic flow layout is provided for now.
+![PBJHexagon](https://raw.github.com/piemonte/PBJHexagon/master/PBJHexagon.gif)
 
 ## Hexagon
 `PBJHexagon` is a simple hexagon grid flow layout for UICollectionViews. It is used heavily in the [DIY app](https://diy.org/app) for displaying skill hexagons.
